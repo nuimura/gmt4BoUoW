@@ -22,7 +22,6 @@ sed -e 's/\#set (COPY_GSHHG TRUE)/set (COPY_GSHHG TRUE)/g' \
 > ./cmake/ConfigUser.cmake
 
 
-cp /home/$USER/d/Mydocument/Dropbox/program/gmt/ConfigUser.cmake ./cmake/ConfigUser.cmake
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr/local -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
